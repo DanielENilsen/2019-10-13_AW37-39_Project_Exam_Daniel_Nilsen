@@ -1,0 +1,2206 @@
+@font-face {
+  font-family: mySans;
+  src: url(raleway/Raleway-Medium.ttf)
+  
+} 
+@font-face {
+  font-family: nasa;
+  src: url(nasalization/nasalization-rg.ttf)
+  
+} 
+
+
+body { 
+  background-color:#1A1919; 
+  font-family: mySans;
+
+}
+
+header { 
+margin:50px;
+
+}
+
+.navbar img  {
+margin-top:10px;
+width:5%;
+
+}
+
+
+.navbar ul {
+width:700px;
+font-size:1.5em;
+float:right;     
+font-family: sans-serif;
+}
+
+.navbar a  {
+color:white;
+font-family:  sans-serif;
+padding-left:51px;
+text-decoration: none;
+
+}
+
+
+
+
+.section-1 { 
+color:white;
+margin-top:80px;
+margin-left:100px;
+ display:grid;
+ grid-template-columns: 200px auto; 
+
+}
+
+
+.sec-1 { 
+margin-left:100px;
+}
+
+
+.sec-1 p {
+margin-left:40px;
+width:500px;
+font-family: mySans;
+font-size:1.6em;
+}
+
+.sec-1 h1 {
+  font-family: nasa;
+    font-size:3em;
+    width:500px;
+    margin-right:100px;     
+
+}
+
+
+.sec-2 {
+margin-left:600px;
+}
+
+.sec-2 img {
+  margin-top:100px;
+ width:550px;
+ height:300px;
+
+}
+
+
+
+.theButton {
+    margin-left:25%;  
+     
+  
+}
+.theButton button  { 
+height:60px;
+width:180px;
+background-color:#1e60be;
+margin-left:100px;
+border: none;
+font-family: mySans;
+border-radius:5px;
+color:white;
+cursor: pointer;
+font-size:1.9em;
+}
+
+ .section-3 {
+   margin-top:12%;
+     margin-left:5%;
+ }
+.section-2 {
+ margin-left:45%;
+ margin-top:200px;
+
+
+}
+.section-2 h2 { 
+color:white;
+font-family:  sans-serif;
+font-size:1.54em;
+
+}
+
+.seatchhid{ 
+margin-top:150px;
+ margin-left:25%;
+ margin-bottom: 200px;
+ width: 1100px;
+ 
+ 
+}
+
+.seatchhid input { 
+  width:850px;
+  height:40px;
+  color:white;
+  background-color:#1D2021;
+  border: 1px solid #707070;
+  
+  }
+  .seatchhid button {
+    margin-top: 3px;
+    background-color:#1D2021;
+    border: 1px solid #707070;    
+    color:white;
+    width:150px;
+    height:45px;
+    font-size:1.5em;
+    padding-top:0px;
+    margin-left:20px;
+
+  }
+
+
+.hello { 
+margin-top:10%;
+display:grid;
+grid-template-columns:350px 530px 3500px  ; 
+width:63%;
+margin-left:15%;
+
+
+}
+
+
+.mygrid { 
+
+cursor: pointer;
+background-image: linear-gradient(to right top, #1b3a66, #1d4372, #1f4c7e, #21558a, #215e96);
+margin-top:50px;
+height:300px;
+transition: transform .2s;
+width:300px;
+margin-bottom: 200px;
+
+}
+
+.mygrid h1 {
+  color:white;
+  font-family: nasa;
+  font-size: 2.8em;
+  padding-left:20px;
+  
+
+}
+.mygrid:hover {
+  transform: scale(1.02);    
+
+}
+
+.mars {
+cursor: pointer;
+background: linear-gradient(to right, #a73737, #7a2828);
+height:300px;
+margin-top:50px;
+transition: transform .2s;
+font-family: nasa;
+width:500px;
+margin-bottom: 200px;
+}
+
+
+
+
+.mars h1 {
+  color:white;
+  font-family: nasa;
+  font-size: 4.8em;
+  padding-left:20px;
+  
+
+}
+
+.mars:hover { 
+  transform: scale(1.02);    
+
+
+}
+
+
+
+.earth { 
+  cursor: pointer;
+margin-left:10px;
+margin-top:50px;
+background: linear-gradient(to left bottom, #45965a, #419556, #3e9352, #3a924e, #36904a); 
+height:300px;
+transition: transform .2s;
+width:300px;
+margin-bottom: 200px;
+
+}
+
+
+
+.earth h1 {
+  color:white;
+  font-family: nasa;
+  font-size: 3.8em;
+  padding-left:20px;
+  
+
+}
+
+.earth:hover {
+  transform: scale(1.02);    
+
+}
+
+
+
+.spacexgrid {
+  margin-top:100px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column: 50px; 
+  width: 800px;
+}
+
+.spaceXlanch { 
+ margin-top:50px;
+  height: 400px;
+  width: 350px;
+   font-family: nasa;
+  color:white;
+  margin-left:50px;  
+  border:1px solid white;
+}
+
+
+.spaceXlanch h1 {
+  font-size:1.8em;
+  margin-top:25px;
+  margin-right:50px; 
+ float:right;
+ }
+.spaceXlanch h2 { 
+  margin-left:40px; 
+  font-size:1.8em;
+  float:left;
+
+}
+ .spaceXlanch img {
+   margin-left:54px;
+   width:65%;
+ }
+ .spaceXlanch:hover { 
+box-shadow: 0 0 5px white;
+}
+
+ .myFunc {    
+  
+  display:grid;
+  grid-template-columns:auto auto; 
+  margin-top:100px;
+  margin-left:16%;
+  height: 650px;
+  color:white;   
+  width: 1200px;
+
+
+ }
+
+.mainDisplay { 
+ margin-top:80px;
+ margin-bottom:50px;
+ }
+
+.mainDisplay h1 { 
+font-size:2em;
+
+}
+
+
+
+.mainDisplay p {
+  width:600px;
+  color:white;
+  margin-left:50px;
+
+}
+
+
+ .gridcolum img  {
+   width:100%;
+   margin-top:120px;
+   margin-left:30px;
+   margin-bottom:200px;
+   
+
+ }
+
+
+.spaceXlanch a {
+ float:right; 
+ height:40px;
+ width:150px;  
+ text-decoration: none;
+ margin-top:15px;
+ color:white;
+ padding-top:20px;
+ margin-right:0px;
+ font-size:1.3em;
+
+}
+.spaceXlanch a:hover { 
+  text-decoration: underline;
+
+
+}
+
+
+
+.marsone {  
+  margin-top:100px;  
+  display:grid;
+  grid-template-columns:auto auto; 
+
+
+}
+
+.marsDisplay { 
+ margin-bottom:50px;
+   margin-top:00px;
+  margin-left:18%;
+  height: 670px;
+  color:white;  
+  width: 1200px;
+
+}
+
+
+ .imageGrid img  {
+   width:500px;
+   margin-top:120px;
+   margin-left:-110%;
+   margin-bottom:200px;
+   
+
+ }
+
+
+.marsDisplay h1 { 
+  padding-top:100px;
+  font-size:1.5em;
+}
+
+
+.links { 
+margin-top:100px;
+width:520px;
+
+}
+
+.linksinfo { 
+    margin-left:45%; 
+    
+}
+
+
+.linksinfo  li { 
+width:696px;
+list-style: none;
+font-size:2.5em;
+ padding-top:30px;
+float:left;  
+
+
+}
+
+.linksinfo  a  {
+  color:white;
+  text-decoration: none;
+  padding-bottom:200px;   
+
+}
+
+
+.theApollo { 
+display:grid;
+grid-template-columns:auto auto;}
+
+.aplloimage {
+  width:400px;
+  margin-top:100px;
+  margin-left:50px;
+  color:white;
+  border:1px solid white;
+  background-color:#1a1919;
+  
+
+}
+
+.aplloimage img {
+  border-bottom:10px;
+  width:100%;
+}
+
+
+.rocketMan {
+  display:grid;
+  grid-template-columns:auto auto;
+  margin-left:10%;
+  margin-bottom:200px;
+
+}
+.rocketManTop { 
+  width:500px;
+  margin-top:100px;
+  margin-left:50px;
+  color:white;
+  margin-bottom:100px;
+  background-color:#1a1919;
+}
+
+.rocketManTop img { 
+margin-top:40px;
+width:100%;
+}
+.rocketManTop h2 { 
+ font-size:2em;
+  font-family: nasa;
+  
+margin-left:100px;
+}
+
+.nameHeader h1 {
+  margin-top:100px;
+    font-family: nasa; 
+    font-size:4em;
+    color:white;
+    margin-left:35%;
+
+}
+
+.line { 
+margin-top:20px;
+background-color:white;
+height:5px;
+width:65%;
+margin-left:20%;
+
+}
+
+
+@media screen and (min-device-width: 550px) and (max-device-width: 670px) and (orientation : landscape){
+.navbar img  {
+  width:5%;
+}
+.section-1 { 
+ display:block;
+
+}
+.sec-1 { 
+  margin-left:10px;
+}
+.sec-1 p {
+  margin-left:40px;
+  width:700px;
+  font-size:1em;
+}
+.sec-1 h1 {
+  font-size:4em;
+  width:700px;
+}
+.sec-2 {
+  margin-left:50px;
+}
+
+.sec-2 img {  
+ width:700px;
+ height:400px;
+}
+
+.theButton {
+  margin-left:0%;    
+}
+.theButton button  { 
+  height:70px;
+  width:190px;
+}
+.seatchhid{ 
+margin-top:150px;
+ margin-left:10%;
+ margin-bottom: 200px;
+ width: 110px; 
+}
+
+.seatchhid input { 
+  width:500px;
+  height:40px;    
+}
+
+.seatchhid button {
+  position: absolute;
+  margin-top: -2em; 
+  margin-left:550px;
+}
+
+.hello { 
+  margin-top:10%;
+  display:block;
+  margin-left:5%;
+}
+.mygrid { 
+  margin-top:80px;
+  height:300px;
+  width:780px;
+  margin-bottom: 200px;
+}
+.mygrid h1 { 
+  margin-left:50px;
+  padding-top:80px;
+  font-size:4em;
+}
+.mars {
+  height:400px;
+  width:780px;
+}
+.mars h1 {
+  margin-left:50px;
+  padding-top:40px;
+  font-size:7em;
+}
+.earth { 
+  height:400px;
+  width:780px;
+}
+.earth h1 {
+ margin-left:50px;
+  padding-top:80px;
+  font-size:5em;
+}
+.spacexgrid {
+  margin-top:100px;
+  display: contents;  
+  width: 80px;
+}
+.spaceXlanch { 
+  margin-top:50px;
+  height: 600px;
+  width: 550px;
+  font-family: nasa;
+  margin-left:50px; 
+}
+.spaceXlanch h1 {
+  font-size:1.8em;
+  margin-top:25px;
+  margin-right:50px; 
+
+}
+.spaceXlanch h2 { 
+  margin-left:40px; 
+  font-size:1.8em;
+}
+ .spaceXlanch img {
+   margin-left:54px;
+   width:65%;
+}
+
+
+ .myFunc {    
+  display:contents;
+  margin-top:100px;
+  margin-left:10%;
+  height: 650px; 
+  width: 1200px;
+}
+
+.mainDisplay { 
+  margin-top:80px;
+  margin-bottom:100px;
+}
+
+.mainDisplay h1 { 
+  font-size:4em;
+
+}
+.mainDisplay p {
+  width:800px; 
+  margin-left:50px;
+  font-size:2.5em;
+
+}
+.gridcolum img  {
+   width:90%;
+   margin-top:120px;
+   margin-left:3px;
+   margin-bottom:200px; 
+
+}
+.spaceXlanch a {
+  height:40px;
+  width:150px;  
+  margin-top:15px;
+  padding-top:20px;
+  margin-right:0px;
+  font-size:1.3em;
+}
+.marsone {  
+  margin-top:100px;  
+  display:grid;
+  grid-template-columns:auto auto; 
+}
+.marsDisplay { 
+ margin-bottom:50px;
+   margin-top:00px;
+  margin-left:18%;
+  height: 670px; 
+  width: 1200px;
+}
+.imageGrid img  {
+  width:500px;
+  margin-top:120px;
+  margin-left:-110%;
+  margin-bottom:200px;
+}
+
+
+.marsDisplay h1 { 
+  padding-top:100px;
+  font-size:1.5em;
+}
+.links { 
+  margin-top:100px;
+  width:520px;
+}
+.linksinfo { 
+  display: contents;  
+  margin-left:25%; 
+  width:896px;  
+}
+.linksinfo  li { 
+  width:400px;
+  margin-top:10px;
+  margin-left:5%;
+  font-size:2em;
+  padding-top:30px;
+}
+.linksinfo  a  {
+  padding-bottom:200px;  
+
+}
+.theApollo { 
+display:grid;
+grid-template-columns:auto auto;
+}
+.aplloimage {
+  width:400px;
+  margin-top:100px;
+  margin-left:50px;
+
+}
+
+.aplloimage img {
+  border-bottom:10px;
+  width:100%;
+}
+.rocketMan {
+  display:contents;
+  margin-bottom:200px;
+}
+.rocketManTop { 
+  width:500px;
+  margin-top:100px;
+  padding-top:50px;
+  margin-left:25%;
+  margin-bottom:100px;
+}
+.nameHeader h1 {
+  margin-top:100px;
+    font-family: nasa; 
+    font-size:5em;
+    margin-left:10%;
+}
+.nameHeader { 
+margin-bottom:100px;
+}
+
+.line { 
+  margin-top:20px;
+  height:5px;
+  width:90%;
+  margin-left:5%;
+}
+}
+
+@media screen and (min-device-width: 671px) and (max-device-width: 830px) and (orientation : landscape){
+.navbar img  {
+  width:5%;
+}
+.section-1 { 
+  display:block;
+
+}
+.sec-1 { 
+  margin-left:10px;
+}
+.sec-1 p {
+  margin-left:40px;
+  width:700px;
+  font-size:1em;
+}
+.sec-1 h1 {
+  font-size:4em;
+  width:700px;
+}
+.sec-2 {
+  margin-left:50px;
+}  
+.sec-2 img {  
+ width:700px;
+ height:400px;
+}
+.theButton {
+  margin-left:0%;       
+}
+.theButton button  { 
+  height:70px;
+  width:190px;
+}
+.seatchhid{ 
+  margin-top:150px;
+  margin-left:10%;
+  margin-bottom: 200px;
+  width: 110px; 
+}
+.seatchhid input { 
+  width:500px;
+  height:40px;    
+}
+.seatchhid button {
+  position: absolute;
+  margin-top: -2em; 
+  margin-left:550px;
+}
+.hello { 
+  margin-top:10%;
+  display:block;
+  margin-left:5%;
+}
+.mygrid { 
+  margin-top:80px;
+  height:300px;
+  width:780px;
+  margin-bottom: 200px;
+}
+
+.mygrid h1 { 
+  margin-left:50px;
+  padding-top:80px;
+  font-size:4em;
+}
+.mars {
+  height:400px;
+  width:780px;
+}
+.mars h1 {
+  margin-left:50px;
+  padding-top:40px;
+  font-size:7em;
+}
+
+.earth { 
+  height:400px;
+  width:780px;
+}
+.earth h1 {
+  margin-left:50px;
+  padding-top:80px;
+  font-size:5em; 
+}
+.spacexgrid {
+  margin-top:100px;
+  display: contents;  
+  width: 80px;
+}
+.spaceXlanch { 
+ margin-top:50px;
+  height: 600px;
+  width: 550px;
+  font-family: nasa;
+  margin-left:50px; 
+}
+.spaceXlanch h1 {
+  font-size:1.8em;
+  margin-top:25px;
+  margin-right:50px; 
+}
+.spaceXlanch h2 { 
+  margin-left:40px; 
+  font-size:1.8em;
+}
+
+.spaceXlanch img {
+   margin-left:54px;
+   width:65%;
+ }
+
+
+ .myFunc {    
+  display:contents;
+  margin-top:100px;
+  margin-left:10%;
+  height: 650px;
+  width: 1200px;
+}
+
+.mainDisplay { 
+ margin-top:80px;
+  margin-bottom:100px;
+}
+
+.mainDisplay h1 { 
+  font-size:4em;
+}
+.mainDisplay p {
+  width:800px; 
+  margin-left:50px;
+  font-size:2.5em;
+}
+.gridcolum img  {
+    width:90%;
+    margin-top:120px;
+    margin-left:3px;
+    margin-bottom:200px; 
+}
+.spaceXlanch a {
+ height:40px;
+ width:150px;  
+ margin-top:15px;
+ padding-top:20px;
+ margin-right:0px;
+ font-size:1.3em;
+}
+
+.marsone {  
+  margin-top:100px;  
+  display:grid;
+  grid-template-columns:auto auto; 
+}
+.marsDisplay { 
+   margin-bottom:50px;
+   margin-top:00px;
+   margin-left:18%;
+   height: 670px;
+   width: 1200px;
+}
+.imageGrid img  {
+    width:500px;
+    margin-top:120px;
+    margin-left:-110%;
+    margin-bottom:200px; 
+}
+
+
+.marsDisplay h1 { 
+  padding-top:100px;
+  font-size:1.5em;
+}
+
+.links {
+  margin-top:100px;
+  width:520px;
+}
+.linksinfo { 
+  display: contents;  
+  margin-left:25%; 
+  width:896px;    
+}
+.linksinfo  li { 
+  width:400px;
+  margin-top:10px;
+  margin-left:5%; 
+  font-size:2em;
+  padding-top:30px;
+}
+
+.theApollo { 
+display:grid;
+grid-template-columns:auto auto;}
+
+.aplloimage {
+  width:400px;
+  margin-top:100px;
+  margin-left:50px;
+
+}
+
+.aplloimage img {
+  border-bottom:10px;
+  width:100%;
+}
+
+
+.rocketMan {
+  display:contents;
+  margin-bottom:200px;
+
+}
+.rocketManTop { 
+  width:500px;
+  margin-top:100px;
+  padding-top:50px;
+  margin-left:25%;
+  margin-bottom:100px;
+}
+.nameHeader h1 {
+  margin-top:100px;
+    font-family: nasa; 
+    font-size:5em;    
+    margin-left:10%;
+}
+.nameHeader { 
+margin-bottom:100px;}
+
+.line { 
+margin-top:20px;
+height:5px;
+width:90%;
+margin-left:5%;
+}
+}
+
+@media screen and (max-device-width: 820px) and (orientation: portrait) {
+
+
+.navbar img  {
+width:5%;
+
+}
+
+.section-1 { 
+ display:block;
+
+}
+
+
+.sec-1 { 
+margin-left:10px;
+}
+
+
+.sec-1 p {
+margin-left:40px;
+width:700px;
+
+font-size:1em;
+}
+
+.sec-1 h1 {
+  font-size:4em;
+  width:700px;
+
+}
+
+
+.sec-2 {
+margin-left:50px;
+}
+
+.sec-2 img {
+  
+ width:700px;
+ height:400px;
+
+}
+
+
+
+.theButton {
+    margin-left:0%;  
+     
+  
+}
+.theButton button  { 
+height:70px;
+width:190px;
+
+}
+
+
+.seatchhid{ 
+margin-top:150px;
+ margin-left:10%;
+ margin-bottom: 200px;
+ width: 110px;
+ 
+ 
+}
+
+.seatchhid input { 
+  width:500px;
+
+  height:40px;    
+}
+.seatchhid button {
+    position: absolute;
+
+    margin-top: -2em; 
+    margin-left:550px;
+
+  }
+
+.hello { 
+margin-top:10%;
+display:block;
+margin-left:5%;
+}
+
+
+
+.mygrid { 
+margin-top:80px;
+height:300px;
+width:780px;
+margin-bottom: 200px;
+
+}
+
+.mygrid h1 { 
+ margin-left:50px;
+  padding-top:80px;
+  font-size:4em;
+}
+.mars {
+height:400px;
+width:780px;
+
+}
+
+.mars h1 {
+  margin-left:50px;
+  padding-top:40px;
+  font-size:7em;
+}
+
+.earth { 
+height:400px;
+width:780px;
+
+}
+
+
+
+.earth h1 {
+ margin-left:50px;
+  padding-top:80px;
+  font-size:5em;
+  
+
+}
+
+
+
+.spacexgrid {
+  margin-top:100px;
+  display: contents; 
+ 
+  width: 80px;
+}
+
+.spaceXlanch { 
+ margin-top:50px;
+  height: 600px;
+  width: 550px;
+   font-family: nasa;
+  color:white;
+  margin-left:50px;  
+
+}
+
+
+.spaceXlanch h1 {
+  font-size:1.8em;
+  margin-top:25px;
+  margin-right:50px; 
+ float:right;
+ }
+.spaceXlanch h2 { 
+  margin-left:40px; 
+  font-size:1.8em;
+  float:left;
+
+}
+ .spaceXlanch img {
+   margin-left:54px;
+   width:65%;
+ }
+ .spaceXlanch:hover { 
+box-shadow: 0 0 5px white;
+}
+
+ .myFunc {    
+  display:contents;
+  margin-top:100px;
+  margin-left:10%;
+  height: 650px;
+  color:white;   
+  width: 1200px;
+
+
+ }
+
+.mainDisplay { 
+ margin-top:80px;
+  margin-bottom:100px;
+ }
+
+.mainDisplay h1 { 
+font-size:4em;
+
+}
+
+
+
+.mainDisplay p {
+  width:800px; 
+  margin-left:50px;
+  font-size:2.5em;
+
+}
+
+
+ .gridcolum img  {
+   width:90%;
+   margin-top:120px;
+   margin-left:3px;
+   margin-bottom:200px;
+   
+
+ }
+
+
+.spaceXlanch a {
+ float:right; 
+ height:40px;
+ width:150px;  
+ text-decoration: none;
+ margin-top:15px;
+ color:white;
+ padding-top:20px;
+ margin-right:0px;
+ font-size:1.3em;
+
+}
+
+
+.marsone {  
+  margin-top:100px;  
+  display:grid;
+  grid-template-columns:auto auto; 
+
+
+}
+
+.marsDisplay { 
+ margin-bottom:50px;
+   margin-top:00px;
+  margin-left:18%;
+  height: 670px;
+  color:white;  
+  width: 1200px;
+
+}
+
+
+ .imageGrid img  {
+   width:500px;
+   margin-top:120px;
+   margin-left:-110%;
+   margin-bottom:200px;
+   
+
+ }
+
+
+.marsDisplay h1 { 
+  padding-top:100px;
+  font-size:1.5em;
+}
+
+
+.links { 
+margin-top:100px;
+width:520px;
+
+}
+
+.linksinfo { 
+display: contents;
+  
+    margin-left:25%; 
+    width:896px;
+    
+}
+
+
+.linksinfo  li { 
+width:400px;
+margin-top:10px;
+margin-left:5%; 
+list-style: none;
+font-size:2em;
+ padding-top:30px;
+
+
+
+}
+
+.linksinfo  a  {
+  color:white;
+  text-decoration: none;
+  padding-bottom:200px;   
+
+}
+
+
+.theApollo { 
+display:grid;
+grid-template-columns:auto auto;}
+
+.aplloimage {
+  width:400px;
+  margin-top:100px;
+  margin-left:50px;
+  color:white;
+  border:1px solid white;
+  background-color:#1a1919;
+  
+
+}
+
+.aplloimage img {
+  border-bottom:10px;
+  width:100%;
+}
+
+
+.rocketMan {
+  display:contents;
+
+
+  margin-bottom:200px;
+
+}
+.rocketManTop { 
+  width:500px;
+  margin-top:100px;
+  padding-top:50px;
+  margin-left:25%;
+  color:white;
+  margin-bottom:100px;
+  background-color:#1a1919;
+}
+.nameHeader h1 {
+  margin-top:100px;
+    font-family: nasa; 
+    font-size:5em;
+    color:white;
+    margin-left:10%;
+
+}
+.nameHeader { 
+margin-bottom:100px;}
+
+.line { 
+margin-top:20px;
+background-color:white;
+height:5px;
+width:90%;
+margin-left:5%;
+
+}
+
+
+
+}
+@media screen and (max-device-width: 1366px) and (orientation: portrait) {
+.navbar img  {
+  width:10%;
+
+}
+
+.section-1 { 
+ display:block;
+}
+
+
+.sec-1 { 
+margin-left:10px;
+}
+.sec-1 p {
+margin-left:40px;
+width:700px;
+font-size:1em;
+}
+
+.sec-1 h1 {
+  font-size:4em;
+  width:700px;
+}
+.sec-2 {
+  margin-left:50px;
+}
+
+.sec-2 img {  
+ width:700px;
+ height:400px;
+}
+
+.theButton {
+    margin-left:0%;      
+}
+.theButton button  { 
+height:70px;
+width:190px;
+}
+.seatchhid{ 
+  margin-top:150px;
+  margin-left:10%;
+  margin-bottom: 200px;
+  width: 110px; 
+}
+
+.seatchhid input { 
+  width:500px;
+  height:40px;    
+}
+.seatchhid button {
+    position: absolute;
+    margin-top: -2em; 
+    margin-left:550px;
+
+}
+
+.hello { 
+margin-top:10%;
+display:block;
+margin-left:5%;
+}
+.mygrid { 
+margin-top:80px;
+height:300px;
+width:780px;
+margin-bottom: 200px;
+}
+
+.mygrid h1 { 
+ margin-left:50px;
+  padding-top:80px;
+  font-size:4em;
+}
+.mars {
+height:400px;
+width:780px;
+
+}
+
+.mars h1 {
+  margin-left:50px;
+  padding-top:40px;
+  font-size:7em;
+}
+.earth { 
+  height:400px;
+  width:780px;
+}
+.earth h1 {
+  margin-left:50px;
+  padding-top:80px;
+  font-size:5em;
+}
+.spacexgrid {
+  margin-top:100px;
+  display: contents;  
+  width: 80px;
+}
+.spaceXlanch { 
+ margin-top:50px;
+  height: 600px;
+  width: 550px;
+  font-family: nasa;
+  margin-left:50px;  
+}
+.spaceXlanch h1 {
+  font-size:1.8em;
+  margin-top:25px;
+  margin-right:50px; 
+ }
+.spaceXlanch h2 { 
+  margin-left:40px; 
+  font-size:1.8em;
+
+}
+ .spaceXlanch img {
+   margin-left:54px;
+   width:65%;
+ }
+ 
+.myFunc {    
+  display:contents;
+  margin-top:100px;
+  margin-left:10%;
+  height: 650px;
+  width: 1200px;
+}
+
+.mainDisplay { 
+ margin-top:80px;
+  margin-bottom:100px;
+ }
+
+.mainDisplay h1 { 
+font-size:4em;
+}
+
+
+
+.mainDisplay p {
+  width:800px; 
+  margin-left:50px;
+  font-size:2.5em;
+}
+.gridcolum img  {
+   width:90%;
+   margin-top:120px;
+   margin-left:3px;
+   margin-bottom:200px; 
+}
+
+.spaceXlanch a {
+ height:40px;
+ width:150px;  
+ margin-top:15px;
+ padding-top:20px;
+ margin-right:0px;
+ font-size:1.3em;
+}
+
+.marsone {  
+  margin-top:100px;  
+  display:grid;
+  grid-template-columns:auto auto; 
+
+
+}
+
+.marsDisplay { 
+ margin-bottom:50px;
+   margin-top:00px;
+  margin-left:18%;
+  height: 670px;  
+  width: 1200px;
+}
+
+.imageGrid img  {
+   width:500px;
+   margin-top:120px;
+   margin-left:-110%;
+   margin-bottom:200px;
+}
+
+.marsDisplay h1 { 
+  padding-top:100px;
+  font-size:1.5em;
+}
+
+.links { 
+margin-top:100px;
+width:520px;
+
+}
+
+.linksinfo { 
+  display: contents;  
+  margin-left:25%; 
+  width:896px;
+    
+}
+
+
+.linksinfo  li { 
+  width:400px;
+  margin-top:10px;
+  margin-left:5%; 
+  font-size:2em;
+  padding-top:30px;
+}
+
+.linksinfo  a  {
+  padding-bottom:200px;   
+
+}
+
+
+.theApollo { 
+  display:grid;
+  grid-template-columns:auto auto;}
+
+.aplloimage {
+  width:400px;
+  margin-top:100px;
+  margin-left:50px;
+}
+
+.aplloimage img {
+  border-bottom:10px;
+  width:100%;
+}
+
+.rocketMan {
+  display:contents;
+  margin-bottom:200px;
+}
+.rocketManTop { 
+  width:500px;
+  margin-top:100px;
+  padding-top:50px;
+  margin-left:25%;
+  margin-bottom:100px;
+}
+.nameHeader h1 {
+  margin-top:100px;
+    font-family: nasa; 
+    font-size:5em;
+   margin-left:10%;
+
+}
+.nameHeader { 
+margin-bottom:100px;
+}
+
+.line { 
+margin-top:20px;
+height:5px;
+width:90%;
+margin-left:5%;
+
+}
+
+
+
+}
+@media screen and (min-device-width: 871px) and (max-device-width: 1270px) and (orientation : landscape){
+
+.navbar img  {
+width:10%;
+
+}
+
+.section-1 { 
+ display:block;
+
+}
+
+
+.sec-1 { 
+margin-left:10px;
+}
+
+
+.sec-1 p {
+margin-left:40px;
+width:700px;
+
+font-size:1em;
+}
+
+.sec-1 h1 {
+  font-size:4em;
+  width:700px;
+
+}
+
+
+.sec-2 {
+margin-left:50px;
+}
+
+.sec-2 img {  
+ width:700px;
+ height:400px;
+
+}
+
+
+
+.theButton {
+    margin-left:0%;     
+}
+
+.theButton button  { 
+height:70px;
+width:190px;
+
+}
+
+
+.seatchhid{ 
+margin-top:150px;
+ margin-left:10%;
+ margin-bottom: 200px;
+ width: 110px;
+ 
+}
+
+.seatchhid input { 
+  width:500px;
+  height:40px;    
+}
+.seatchhid button {
+    position: absolute;
+    margin-top: -2em; 
+    margin-left:550px;
+
+  }
+
+.hello { 
+margin-top:10%;
+display:block;
+margin-left:5%;
+}
+
+
+
+.mygrid { 
+margin-top:80px;
+height:300px;
+width:780px;
+margin-bottom: 200px;
+
+}
+
+.mygrid h1 { 
+ margin-left:50px;
+  padding-top:80px;
+  font-size:4em;
+}
+.mars {
+height:400px;
+width:780px;
+
+}
+
+.mars h1 {
+  margin-left:50px;
+  padding-top:40px;
+  font-size:7em;
+}
+
+.earth { 
+height:400px;
+width:780px;
+}
+.earth h1 {
+ margin-left:50px;
+  padding-top:80px;
+  font-size:5em; 
+
+}
+.spacexgrid {
+  margin-top:100px;
+  display: contents;  
+  width: 80px;
+}
+
+.spaceXlanch { 
+ margin-top:50px;
+  height: 600px;
+  width: 550px;
+   font-family: nasa;
+ margin-left:50px;  
+
+}
+
+
+.spaceXlanch h1 {
+  font-size:1.8em;
+  margin-top:25px;
+  margin-right:50px; 
+ }
+.spaceXlanch h2 { 
+  margin-left:40px; 
+  font-size:1.8em;
+
+}
+ .spaceXlanch img {
+   margin-left:54px;
+   width:65%;
+ }
+
+
+ .myFunc {    
+  display:contents;
+  margin-top:100px;
+  margin-left:10%;
+  height: 650px;
+ width: 1200px;
+
+
+ }
+
+.mainDisplay { 
+ margin-top:80px;
+  margin-bottom:100px;
+ }
+
+.mainDisplay h1 { 
+font-size:4em;
+
+}
+
+
+
+.mainDisplay p {
+  width:800px; 
+  margin-left:50px;
+  font-size:2.5em;
+
+}
+
+
+.gridcolum img  {
+  width:90%;
+  margin-top:120px;
+  margin-left:3px;
+  margin-bottom:200px;
+}
+
+
+.spaceXlanch a {
+ height:40px;
+ width:150px;  
+ margin-top:15px;
+ padding-top:20px;
+ margin-right:0px;
+ font-size:1.3em;
+}
+
+
+.marsone {  
+  margin-top:100px;  
+  display:grid;
+  grid-template-columns:auto auto; 
+}
+
+.marsDisplay { 
+  margin-bottom:50px;
+  margin-top:00px;
+  margin-left:18%;
+  height: 670px;
+  width: 1200px;
+}
+
+
+.imageGrid img  {
+   width:500px;
+   margin-top:120px;
+   margin-left:-110%;
+   margin-bottom:200px; 
+}
+
+
+.marsDisplay h1 { 
+  padding-top:100px;
+  font-size:1.5em;
+}
+
+
+.links { 
+  margin-top:100px;
+  width:520px;
+}
+
+.linksinfo { 
+  display: contents;  
+  margin-left:25%; 
+  width:896px;    
+}
+
+.linksinfo  li { 
+width:400px;
+margin-top:10px;
+margin-left:5%; 
+font-size:2em;
+padding-top:30px;
+}
+
+.linksinfo  a  {
+  text-decoration: none;
+  padding-bottom:200px;   
+
+}
+
+
+.theApollo { 
+display:grid;
+grid-template-columns:auto auto;
+}
+
+.aplloimage {
+  width:400px;
+  margin-top:100px;
+  margin-left:50px; 
+}
+
+.aplloimage img {
+  border-bottom:10px;
+  width:100%;
+}
+.rocketMan {
+  display:contents;
+  margin-bottom:200px;
+}
+.rocketManTop { 
+  width:500px;
+  margin-top:100px;
+  padding-top:50px;
+  margin-left:25%;
+  margin-bottom:100px;
+}
+.nameHeader h1 {
+  margin-top:100px;
+    font-family: nasa; 
+    font-size:5em;
+   margin-left:10%;
+
+}
+.nameHeader { 
+margin-bottom:100px;}
+
+.line { 
+margin-top:20px;
+height:5px;
+width:90%;
+margin-left:5%;
+
+}
+}
+
+@media screen and (min-device-width: 1300px) and (max-device-width: 1370px) and (orientation : landscape){
+
+.navbar img  {
+width:10%;
+
+}
+
+.section-1 { 
+ display:block;
+
+}
+.section-1 {
+margin-left:300px;
+}
+.sec-1 { 
+margin-left:10px;
+}
+.sec-1 p {
+margin-left:40px;
+width:800px;
+font-size:1.9em;
+}
+.sec-1 h1 {
+  font-size:4em;
+  width:700px;
+}
+.sec-2 {
+margin-left:50px;
+}
+
+.sec-2 img {
+  
+ width:700px;
+ height:400px;
+
+}
+
+
+
+.theButton {
+    margin-left:10%;  
+     
+  
+}
+.theButton button  { 
+height:70px;
+width:190px;
+
+}
+
+
+.seatchhid{ 
+margin-top:150px;
+ margin-left:10%;
+ margin-bottom: 200px;
+ width: 110px;
+ 
+ 
+}
+
+.seatchhid input { 
+  width:500px;
+
+  height:40px;    
+}
+.seatchhid button {
+  position: absolute;
+  margin-top: -2em; 
+  margin-left:550px;
+
+}
+
+.hello { 
+margin-top:10%;
+display:block;
+margin-left:20%;
+}
+
+
+
+.mygrid { 
+margin-top:80px;
+height:300px;
+width:780px;
+margin-bottom: 200px;
+
+}
+
+.mygrid h1 { 
+ margin-left:50px;
+  padding-top:80px;
+  font-size:4em;
+}
+.mars {
+height:400px;
+width:780px;
+
+}
+
+.mars h1 {
+  margin-left:50px;
+  padding-top:40px;
+  font-size:7em;
+}
+
+.earth { 
+height:400px;
+width:780px;
+
+}
+
+
+
+.earth h1 {
+ margin-left:50px;
+  padding-top:80px;
+  font-size:5em;
+  
+
+}
+
+.seatchhid input { 
+  width:800px;
+  height:40px;    
+}
+.seatchhid button {
+    position: absolute;    
+    margin-left:850px;
+
+}
+
+
+
+.spacexgrid {
+  margin-top:100px;
+  display: contents; 
+  width: 80px;
+}
+
+.spaceXlanch { 
+ margin-top:100px;
+  height: 600px;
+  width: 550px;
+   font-family: nasa;
+ margin-left:150px;  
+
+}
+
+
+.spaceXlanch h1 {
+  font-size:1.8em;
+  margin-top:25px;
+  margin-right:50px; 
+
+ }
+.spaceXlanch h2 { 
+  margin-left:40px; 
+  font-size:1.8em;
+
+}
+ .spaceXlanch img {
+   margin-left:54px;
+   width:65%;
+ }
+
+
+ .myFunc {    
+  display:contents;
+  margin-top:100px;
+  margin-left:10%;
+  height: 650px;
+  width: 1200px;
+
+
+ }
+
+.mainDisplay { 
+ margin-top:80px;
+  margin-bottom:100px;
+ }
+
+.mainDisplay h1 { 
+font-size:4em;
+
+}
+
+
+
+.mainDisplay p {
+  width:800px; 
+  margin-left:50px;
+  font-size:2.5em;
+
+}
+
+
+ .gridcolum img  {
+   width:90%;
+   margin-top:120px;
+   margin-left:3px;
+   margin-bottom:200px;
+   
+
+ }
+
+
+.spaceXlanch a {
+ height:40px;
+ width:150px;  
+ margin-top:15px;
+ padding-top:20px;
+ margin-right:0px;
+ font-size:1.3em;
+
+}
+
+
+.marsone {  
+  margin-top:100px;  
+  display:grid;
+  grid-template-columns:auto auto; 
+
+
+}
+
+.marsDisplay { 
+ margin-bottom:50px;
+   margin-top:00px;
+  margin-left:18%;
+  height: 670px;
+  width: 1200px;
+
+}
+
+
+ .imageGrid img  {
+   width:500px;
+   margin-top:120px;
+   margin-left:-110%;
+   margin-bottom:200px;
+   
+
+ }
+
+
+.marsDisplay h1 { 
+  padding-top:100px;
+  font-size:1.5em;
+}
+
+
+.links { 
+margin-top:100px;
+width:520px;
+
+}
+
+.linksinfo { 
+display: contents;  
+margin-left:25%; 
+width:896px;
+    
+}
+
+
+.linksinfo  li { 
+width:400px;
+margin-top:10px;
+margin-left:5%; 
+font-size:2em;
+ padding-top:30px;
+
+
+
+
+}
+
+.linksinfo  a  { 
+  padding-bottom:200px;   
+
+}
+
+
+.theApollo { 
+display:grid;
+grid-template-columns:auto auto;
+
+}
+
+.aplloimage {
+  width:400px;
+  margin-top:100px;
+  margin-left:50px;
+
+
+}
+
+.aplloimage img {
+  border-bottom:10px;
+  width:100%;
+}
+
+
+
+
+.nameHeader h1 {
+    font-size:5em;  
+    margin-left:10%;
+
+}
+.nameHeader { 
+margin-bottom:100px;
+}
+
+.line { 
+width:90%;
+margin-left:5%;
+
+}
+
+}

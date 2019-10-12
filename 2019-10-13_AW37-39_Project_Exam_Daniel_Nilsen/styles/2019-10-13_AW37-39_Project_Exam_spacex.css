@@ -1,0 +1,211 @@
+@font-face {
+  font-family: mySans;
+  src: url(raleway/Raleway-Medium.ttf)
+  
+} 
+@font-face {
+  font-family: nasa;
+  src: url(nasalization/nasalization-rg.ttf)
+  
+} 
+
+
+body { 
+  font-family: mySans;
+  background-color:#1A1919; 
+
+}
+
+header { 
+margin:50px;
+
+}
+
+.navbar img  {
+margin-top:10px;
+width:5%;
+
+}
+
+
+.navbar ul {
+width:700px;
+font-size:1.5em;
+float:right;     
+
+}
+
+.navbar a  {
+color:white;
+font-family: mySans;
+padding-left:51px;
+text-decoration: none;
+
+}
+.sec-1 {
+     display: grid;
+     margin-top:10%;
+     width: 1500px;
+      grid-template-columns: auto auto; 
+      margin-bottom:100px;
+
+}
+.spaceinfo { 
+    margin-left: 45%;
+
+
+}
+.spaceinfo img {
+    width: 100%; 
+   
+
+
+}
+.spaceinfo-2 { 
+  color:white;
+  margin-left:10%;
+}
+.spaceinfo-2 p { 
+width:80%;
+font-size: 1.1em;
+
+}
+
+.spaceinfo-2 a {
+  padding-left:10px;
+  color:white;
+
+     text-decoration:none;
+}
+
+.theHeader { 
+margin-top:100px;
+margin-left:35%;
+
+}
+
+.theHeader h1 { 
+ color:white;
+ font-family: nasa;   
+ font-size:4.5em;
+
+}
+@media screen and (min-device-width: 550px) and (max-device-width: 670px) and (orientation : landscape){
+
+
+.navbar img  {
+width:10%;
+
+}
+
+
+
+
+
+
+
+}
+
+@media screen and (min-device-width: 671px) and (max-device-width: 830px) and (orientation : landscape){
+
+
+.navbar img  {
+width:10%;
+
+}
+
+
+
+
+}
+
+@media screen and (max-device-width: 820px) and (orientation: portrait) {
+
+
+
+.navbar img  {
+width:10%;
+
+}
+
+
+
+
+
+}
+@media screen and (max-device-width: 1366px) and (orientation: portrait) {
+
+
+.navbar img  {
+width:10%;
+
+}
+.sec-1 {
+     display: block;
+     margin-top:10%;
+     width: 550px;
+      margin-bottom:100px;
+
+}
+.spaceinfo { 
+    margin-left: 65%;
+
+
+}
+.spaceinfo img {
+    width: 200%; 
+   
+
+
+}
+.spaceinfo-2 { 
+  color:white;
+  margin-left:10%;
+}
+.spaceinfo-2 p { 
+width:80%;
+font-size: 1.1em;
+
+}
+
+
+
+.theHeader { 
+margin-top:100px;
+margin-left:35%;
+
+}
+
+.theHeader h1 { 
+ color:white;
+ font-family: nasa;   
+ font-size:4.5em;
+
+}
+
+
+
+
+}
+@media screen and (min-device-width: 871px) and (max-device-width: 1270px) and (orientation : landscape){
+
+
+.navbar img  {
+width:1%;
+
+}
+
+
+
+
+}
+
+@media screen and (min-device-width: 1300px) and (max-device-width: 1370px) and (orientation : landscape){
+
+.navbar img  {
+width:10%;
+
+}
+
+
+}

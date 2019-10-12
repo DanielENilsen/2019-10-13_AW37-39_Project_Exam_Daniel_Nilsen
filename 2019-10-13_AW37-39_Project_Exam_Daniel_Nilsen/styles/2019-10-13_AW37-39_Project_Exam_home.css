@@ -1,0 +1,161 @@
+@font-face {
+  font-family: spaceX;
+  src: url(space-age/spaceage.ttf)
+  
+} 
+@font-face {
+  font-family: nasa;
+  src: url(nasalization/nasalization-rg.ttf)
+  
+} 
+
+
+
+
+body { 
+  background-color:#010101;
+  
+}
+header { 
+  margin:50px;
+  position:relative; 
+}
+
+
+.navbar img  {
+  margin-top:10px;
+  width:5%;
+}
+
+
+.navbar ul {
+  width:700px;
+  font-size:1.5em;
+  float:right;     
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar a  {
+  color:white;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-left:51px;
+  text-decoration: none;
+}
+
+
+
+
+.space-grid { 
+  display:grid;
+  grid-template-columns:auto auto;   
+}
+.img {
+   
+  background-image:url('../img/update.jpg');
+  background-repeat:no-repeat;
+  background-size:830px;
+  margin-top:-360px;
+  width: 180%;
+  height:1100px;
+  margin-left:-500px;
+
+}
+
+
+
+.main {
+  margin-top:120px;
+  position: relative;
+  margin-left:100px;
+}
+
+
+.main article { 
+  color:white;
+
+}
+
+.main article h1 {
+  font-size:4em;
+  font-family: nasa;
+}
+
+
+.main article h3 {
+  margin-left:300px;
+  font-family: nasa;
+  margin-top:-50px;
+  font-size:1.2em;
+}
+
+@media screen and (min-device-width: 550px) and (max-device-width: 670px) and (orientation : landscape){
+  .navbar img  {
+     width:10%;
+  }      
+  .img {
+    margin-top:100px;
+    width: 400%;
+    height:1300px;
+    margin-left:-700px;
+  }  
+}
+  
+@media screen and (min-device-width: 671px) and (max-device-width: 830px) and (orientation : landscape){
+    .navbar img  {
+      width:10%;
+    }      
+    .img { 
+      margin-top:100px;
+      width: 400%;
+      height:1300px;
+      margin-left:-700px;
+    }  
+  }
+  
+@media screen and (max-device-width: 820px) and (orientation: portrait) { 
+    .navbar img  {
+      width:10%;
+    }     
+    .img { 
+      margin-top:100px;
+      width: 400%;
+      height:1300px;
+      margin-left:-700px;
+    }
+  }
+@media screen and (max-device-width: 1366px) and (orientation: portrait) {
+    .navbar img  {
+       width:10%;
+    }      
+    .img {
+      margin-top:100px;
+      width: 400%;
+      height:1300px;
+      margin-left:-700px;   
+    }  
+  }
+@media screen and (min-device-width: 871px) and (max-device-width: 1170px) and (orientation : landscape){
+    .navbar img  {
+      width:10%;
+    }      
+   .img {
+      margin-top:10px;
+      width:400%;
+      height:1300px;
+      margin-left:-600px;
+    }  
+  }
+  
+  
+@media screen and (min-device-width: 1871px) and (max-device-width: 1370px) and (orientation : landscape){
+  
+    .navbar img  {
+      width:10%;
+    }      
+    .img {
+      margin-top:10px;
+      width:200%;
+      height:1300px;
+      margin-left:-500px;
+   }
+}
